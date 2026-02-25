@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* LOGIN PAGE BACKGROUND */
+.login-bg {
+    background-image: url('../images/college.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* DASHBOARD BACKGROUND */
+.dashboard-bg {
+    background-image: url('../images/faculty.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+/* PARENT DASHBOARD BACKGROUND */
+.parent-bg {
+    background-image: url('../images/parents.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+/* FORM CONTAINER */
+.container {
+    width: 350px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #014a76;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
